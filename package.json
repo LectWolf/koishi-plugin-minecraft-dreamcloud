@@ -2,19 +2,33 @@
   "name": "koishi-plugin-minecraft-dreamcloud",
   "description": "Minecraft次梦幻境koishi插件",
   "version": "0.0.1",
+  "contributors": ["LectWolf <2242299685@qq.com>"],
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
     "dist"
   ],
-  "license": "MIT",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LectWolf/koishi-plugin-minecraft-dreamcloud.git"
+  },
   "scripts": {},
   "keywords": [
     "chatbot",
     "koishi",
     "plugin"
   ],
+  "koishi": {
+    "description": {
+      "zh": "[自用]Minecraft次梦幻境koishi插件"
+    },
+    "service": {
+      "required": ["database"]
+    },
+    "preview": true
+  },
   "devDependencies": {},
   "peerDependencies": {
     "koishi": "^4.17.8"
