@@ -1,0 +1,17 @@
+- $description: 群组设置
+  group:
+    list: 启用机器人的群组ID
+    autoJoin: 自动批准入群
+    isWelcome: 是否发送入群欢迎语
+    welcome: 入群欢迎语
+- $description: 绑定设置
+  forceBind: 是否强制绑定社交帐号
+  maxBind: 社交账号可绑定游戏账号数量
+- $description: 改名设置
+  lockName: 是否锁定修改群名片
+- $description: 自定义命令
+  custom:
+    $description: 命令列表
+    command: 关键词
+    mode:
+      $description: 触发模式,查询模式/命令模式
